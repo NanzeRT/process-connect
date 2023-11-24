@@ -3,7 +3,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#define BUFFER_SIZE 8
+#define BUFFER_SIZE 256
 
 struct ring_buffer {
     char buffer[BUFFER_SIZE];
